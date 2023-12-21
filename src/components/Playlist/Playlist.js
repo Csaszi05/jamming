@@ -5,7 +5,7 @@ export default function Playlist(props){
     let trackss;
     
     trackss = props.tracks.map((track)=> {
-            return(<Track cim={track.name} artist={track.artist} album={track.album} key={track.id} remove={props.handleRemove} id={track.id} />)
+            return(<Track cim={track.name} artist={track.artist} album={track.album} key={track.id} remove={props.handleRemove} id={track.id} uri={track.uri} />)
         })
     return(
         <div className="playlist">

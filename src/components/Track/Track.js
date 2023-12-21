@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Track(props){
     let tr = {
-        name: props.cim, artist: props.artist, album: props.album, id: props.id,
+        name: props.cim, artist: props.artist, album: props.album, id: props.id, uri: props.uri,
     }
     function handleClickAdd(){
         props.addto(tr, tr.id)
