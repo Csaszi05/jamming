@@ -1,1 +1,1 @@
-Egy spotify playlist készítő applikáciü 
+Egy spotify playlist készítő applikációóóóóóó
